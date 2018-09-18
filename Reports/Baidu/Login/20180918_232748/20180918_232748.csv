@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 69.0.3497.100,,2018-09-18 23:27:50,2018-09-18 23:28:04,14.153s,PASSED
+,,,,,,
+Test Cases/Authentication/Login/LaunchBaidu,Chrome 69.0.3497.100,,2018-09-18 23:27:50,2018-09-18 23:28:03,13.154s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-18 23:27:50,2018-09-18 23:28:00,10.168s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-18 23:28:00,2018-09-18 23:28:01,0.254s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-18 23:28:01,2018-09-18 23:28:01,0.157s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-18 23:28:01,2018-09-18 23:28:01,0.058s,PASSED
+verifyElementText,Chrome 69.0.3497.100,,2018-09-18 23:28:01,2018-09-18 23:28:03,2.239s,PASSED
+Statement - If (true),Chrome 69.0.3497.100,,2018-09-18 23:28:03,2018-09-18 23:28:03,0.001s,PASSED

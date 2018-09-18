@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="8" timestamp="2018-09-18 23:32:48" hostname="admin - DESKTOP-R4I1E3R" id="Test Suites/Baidu/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\git\\RegressionTest\\Reports\\Baidu\\Login\\20180918_233247"/>
+         <property name="logFiles" value="D:\\git\\RegressionTest\\Reports\\Baidu\\Login\\20180918_233247\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - DESKTOP-R4I1E3R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="sessionId" value="c87c75131db59f792336e7abe4aea5ee"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/Login/LaunchBaidu" classname="Test Cases/Authentication/Login/LaunchBaidu" status="PASSED">
+         <system-out><![CDATA[2018-09-18 23:32:48 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login/LaunchBaidu: Test Cases/Authentication/Login/LaunchBaidu
+
+2018-09-18 23:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.baidu.com'
+
+2018-09-18 23:32:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.baidu.com'
+
+2018-09-18 23:32:54 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Baidu/BaiduHome/Search'
+
+2018-09-18 23:32:54 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Baidu/BaiduHome/Search'
+
+2018-09-18 23:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Baidu/BaiduHome/SearchBtn' is clicked on
+
+2018-09-18 23:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Baidu/BaiduHome/SearchBtn' is clicked on
+
+2018-09-18 23:32:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-18 23:32:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 23:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Baidu/SearchResultPage/FirstResult' are matched.
+
+2018-09-18 23:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Baidu/SearchResultPage/FirstResult' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 23:32:48 - [TEST_SUITE][PASSED] - Login: Test Cases/Authentication/Login/LaunchBaidu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
