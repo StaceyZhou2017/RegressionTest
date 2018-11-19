@@ -1,1 +1,2 @@
 # RegressionTest
+From Katalon Studio
